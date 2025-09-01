@@ -39,14 +39,27 @@ This project was developed with a focus on clean architecture, beautiful UI, and
 
 **Logging Market experience**: Users can log their day in the market. They can log what they experienced, what they bought and the price of the item and much more.
 
-## Screenshots
+## Screenshots 
 
-| Name | Screenshot | Name | Screenshot |
-|---|---|---|---|
-| Splash | <img src="screenshots/Splash.jpg" height="300" /> | Login | <img src="screenshots/Login.jpg" height="300" /> |
-| Register | <img src="screenshots/Register.jpg" height="300" /> | Home | <img src="screenshots/Home.jpg" height="300" /> |
-| Debts | <img src="screenshots/Debts.jpg" height="300" /> | Expenses | <img src="screenshots/Expenses.jpg" height="300" /> |
-| Notes | <img src="screenshots/Notes.jpg" height="300" /> | Settings | <img src="screenshots/settings.jpg" height="300" /> |
+<table>
+  <tr>
+    <td align="center"><b>Splash</b><br><img src="screenshots/Splash.jpg" height="350"></td>
+    <td align="center"><b>Login</b><br><img src="screenshots/Login.jpg" height="350"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Register</b><br><img src="screenshots/Register.jpg" height="350"></td>
+    <td align="center"><b>Home</b><br><img src="screenshots/Home.jpg" height="350"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Debts</b><br><img src="screenshots/Debts.jpg" height="350"></td>
+    <td align="center"><b>Expenses</b><br><img src="screenshots/Expenses.jpg" height="350"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Notes</b><br><img src="screenshots/Notes.jpg" height="350"></td>
+    <td align="center"><b>Settings</b><br><img src="screenshots/settings.jpg" height="350"></td>
+  </tr>
+</table>
+
 
 ## Tech Stack
 
