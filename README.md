@@ -43,6 +43,7 @@ This project was developed with a focus on clean architecture, beautiful UI, and
 
 ## Screenshots
 
-| Splash | Login | Register |
+|  |  |  |
 |---|---|---|
-| ![Splash](screenshots/Splash.jpg) | None | None |
+| Splash | Login | Register |
+| <img src="screenshots/Splash.jpg" height="300" /> | None | None |
