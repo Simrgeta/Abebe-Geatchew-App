@@ -52,4 +52,4 @@ This project was developed with a focus on clean architecture, beautiful UI, and
 | Debts | <img src="screenshots/Debts.jpg" height="300" /> |
 | Expenses | <img src="screenshots/Expenses.jpg" height="300" /> |
 | Notes | <img src="screenshots/Notes.jpg" height="300" /> |
-| Settings | <img src="screenshots/Settings.jpg" height="300" /> |
+| Settings | <img src="screenshots/Setting.jpg" height="300" /> |
