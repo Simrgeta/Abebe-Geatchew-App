@@ -34,3 +34,14 @@ This project was developed with a focus on clean architecture, beautiful UI, and
 **Backup**: Users can export and import their data securely both on local devices and also on cloud servers.
 
 **Security**: Users data is stored safely and securely. There is almost 0% of security breach on the architecture of the software. Users can login and use our services securely free of worries.
+
+**Keeping track of your loans**: Users can track people who owe them, how much they owe them, when and every little tiny details about the loan, and follow up the payment.
+
+**Recording Income/Expenses**: Users can record their income and expenses so they will be much more productive.
+
+**Logging Market experience**: Users can log their day in the market. They can log what they experienced, what they bought and the price of the item and much more.
+
+## Screenshots
+
+| # Splash | # Login | # Register |
+| ![Splash](screenshots/Splash.jpg) |  |  |
