@@ -116,4 +116,5 @@ See the [LICENSE](LICENSE) file for more details.
 ## Contact
 
 Simrgeta Awash Mulat - [awashsimrgeta123@gmail.com](mailto:awashsimrgeta123@gmail.com)
+
 Project Link - [https://github.com/Simrgeta/Abebe-Geatchew-App](https://github.com/Simrgeta/Abebe-Geatchew-App)
