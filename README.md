@@ -208,6 +208,9 @@ This Agreement constitutes the **entire understanding** between Licensor and Lic
 
 If any provision of this Agreement is held to be invalid or unenforceable, the remaining provisions shall continue in full force and effect.  
 
+
+***
+
 ## Contact
 
 Simrgeta Awash Mulat - [awashsimrgeta123@gmail.com](mailto:awashsimrgeta123@gmail.com)
