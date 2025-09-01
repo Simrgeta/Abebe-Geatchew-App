@@ -39,26 +39,19 @@ This project was developed with a focus on clean architecture, beautiful UI, and
 
 **Logging Market experience**: Users can log their day in the market. They can log what they experienced, what they bought and the price of the item and much more.
 
-## Screenshots 
+## Screenshots  
 
-<table>
-  <tr>
-    <td align="center"><b>Splash</b><br><img src="screenshots/Splash.jpg" height="350"></td>
-    <td align="center"><b>Login</b><br><img src="screenshots/Login.jpg" height="350"></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Register</b><br><img src="screenshots/Register.jpg" height="350"></td>
-    <td align="center"><b>Home</b><br><img src="screenshots/Home.jpg" height="350"></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Debts</b><br><img src="screenshots/Debts.jpg" height="350"></td>
-    <td align="center"><b>Expenses</b><br><img src="screenshots/Expenses.jpg" height="350"></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Notes</b><br><img src="screenshots/Notes.jpg" height="350"></td>
-    <td align="center"><b>Settings</b><br><img src="screenshots/settings.jpg" height="350"></td>
-  </tr>
-</table>
+<div style="display: flex; overflow-x: auto;">
+  <img src="screenshots/Splash.jpg" height="350" style="margin-right: 10px;">
+  <img src="screenshots/Login.jpg" height="350" style="margin-right: 10px;">
+  <img src="screenshots/Register.jpg" height="350" style="margin-right: 10px;">
+  <img src="screenshots/Home.jpg" height="350" style="margin-right: 10px;">
+  <img src="screenshots/Debts.jpg" height="350" style="margin-right: 10px;">
+  <img src="screenshots/Expenses.jpg" height="350" style="margin-right: 10px;">
+  <img src="screenshots/Notes.jpg" height="350" style="margin-right: 10px;">
+  <img src="screenshots/settings.jpg" height="350">
+</div>
+
 
 
 ## Tech Stack
