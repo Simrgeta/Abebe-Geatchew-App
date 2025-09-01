@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Brand -->
+    <color name="primary">#7C4DFF</color>
+    <color name="primaryContainer">#EADDFF</color>
+    <color name="secondary">#00E5FF</color>
+
+    <color name="positiveNet">#4CAF50</color> <!-- green -->
+    <color name="negativeNet">#F44336</color> <!-- red -->
+
+    <color name="blue_500">#2196F3</color> <!-- Primary Blue -->
+    <color name="blue_700">#1976D2</color> <!-- Darker Blue for accents -->
+
+    <color name="about_bg">#6FE40101</color>
+
+    <!-- UI -->
+    <color name="card_glass">#CCFFFFFF</color> <!-- used directly in layout as @color/card_glass -->
+    <color name="card_stroke">#22FFFFFF</color>
+    <color name="onCardHigh">#0D0F1A</color>
+    <color name="onCardLow">#6B7280</color>
+    <color name="hintColor">#7A86A1</color>
+    <color name="boxStroke">#445A6C</color>
+
+
+    <color name="highlight_bg">#FF9800</color>
+
+    <!-- Dropdown -->
+    <color name="dropdownBg">#FFFFFFFF</color>
+    <color name="dropdownStroke">#1A000000</color>
+
+    <color name="colorPrimary">#FBFF00</color>      <!-- Deep Purple / Material3 Primary -->
+    <color name="colorOnPrimary">#230EDE</color>    <!-- White text / ripple -->
+
+    <color name="amountOwedColor">#6200EE</color>      <!-- Purple -->
+    <color name="amountPaidColor">#388E3C</color>      <!-- Green -->
+    <color name="amountRemainingColor">#D32F2F</color>      <!-- Slightly off-white card -->
+
+
+    <!-- Material Design greys -->
+    <color name="md_grey_200">#EEEEEE</color>
+    <color name="md_grey_500">#9E9E9E</color>
+    <color name="md_grey_600">#757575</color>
+
+    <!-- Material Design teal -->
+    <color name="teal_200">#03DAC5</color>
+
+
+    <!-- Material Design reds -->
+    <color name="red_500">#F44336</color>
+
+    <!-- Material Design greens -->
+    <color name="green_500">#4CAF50</color>
+
+    <!-- Material Design oranges -->
+    <color name="orange_500">#FF9800</color>
+
+    <!-- Teal shades -->
+    <color name="teal_700">#00796B</color>
+    <color name="teal_500">#009688</color>
+
+    <!-- Red shades -->
+    <color name="red_600">#E53935</color>
+    <color name="red_400">#EF5350</color>
+
+    <!-- Amber (for owed money highlight) -->
+    <color name="amber_600">#FFB300</color>
+
+    <!-- Green (for paid money highlight) -->
+    <color name="green_600">#43A047</color>
+
+    <!-- Blue (for reason/info) -->
+    <color name="blue_600">#1E88E5</color>
+
+    <!-- Material Grey Palette -->
+    <color name="md_grey_100">#F5F5F5</color>
+    <color name="md_grey_400">#BDBDBD</color>
+    <color name="md_grey_800">#424242</color>
+
+    !-- Grays -->
+    <color name="md_grey_50">#FAFAFA</color>       <!-- Card background -->
+    <color name="md_grey_300">#D1D1D1</color>      <!-- Date text, reason text -->
+    <color name="md_grey_700">#616161</color>     <!-- Reason text slightly darker -->
+    <color name="md_grey_900">#212121</color>     <!-- Borrower name -->
+
+    <!-- Accent Colors -->
+    <color name="red_700">#D32F2F</color>         <!-- Owed amount -->
+    <color name="green_700">#388E3C</color>       <!-- Paid amount -->
+    <color name="orange_700">#F57C00</color>      <!-- Remaining amount -->
+
+
+    <!-- Field background -->
+    <color name="fieldBg">#F7F8FC</color>
+
+    <!-- Button gradient -->
+    <color name="btnStart">#7C4DFF</color>
+    <color name="btnEnd">#00E5FF</color>
+
+
+    <!-- Backgrounds -->
+    <color name="bg_row_table">#FFFFFF</color>      <!-- Light gray for table rows -->
+    <color name="bg_card_expanded">#FFFFFF</color>  <!-- White for expanded card -->
+
+    <!-- Primary Text -->
+    <color name="text_primary">#1F1F23</color>      <!-- Almost black for main text -->
+    <color name="text_secondary">#555761</color>    <!-- Dark gray for secondary text -->
+    <color name="text_hint">#888A94</color>         <!-- Soft gray for hints, dates -->
+
+    <!-- Accent colors -->
+    <color name="accent_positive">#4CAF50</color>   <!-- Green for positive amounts -->
+    <color name="accent_negative">#F44336</color>   <!-- Red for remaining debt -->
+    <color name="accent_neutral">#FFB300</color>    <!-- Amber for owed money icons -->
+
+    <!-- Divider / stroke -->
+    <color name="divider">#E0E0E0</color>
+
+    <!-- Glass/blur-like tint (light) -->
+    <color name="btnGlassTint">#CCFFFFFF</color> <!-- 80% white -->
+    <color name="btnStroke">#1F000000</color>    <!-- subtle dark stroke -->
+    <color name="btnText">#101523</color>
+    <color name="btnRipple">#33000000</color>
+
+    <!-- Tonal -->
+    <color name="btnTonalBg">#E9ECFF</color>
+    <color name="btnTonalText">#29304A</color>
+
+    <!-- Outline -->
+    <color name="btnOutlineStroke">#3D4B5C</color>
+    <color name="btnOutlineText">#243043</color>
+
+    <!-- Success -->
+    <color name="btnSuccessBg">#E5F9EE</color>
+    <color name="btnOnSuccess">#0A5C3D</color>
+    <color name="btnSuccessStroke">#AA58C58B</color>
+
+    <!-- Danger -->
+    <color name="btnDangerBg">#FFF1F1</color>
+    <color name="btnOnDanger">#7C1111</color>
+    <color name="btnDangerStroke">#B3E18A8A</color>
+
+</resources>

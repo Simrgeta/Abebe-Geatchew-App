@@ -1,0 +1,121 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <View
+        android:id="@+id/mistyView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="0.8747"
+        app:layout_constraintDimensionRatio="328:70"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/bg_misty_view" />
+
+    <ImageView
+        android:id="@+id/mistyImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/wallet"
+        android:layout_marginStart="13dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintWidth_percent="0.123"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/mistyView"
+        app:layout_constraintStart_toStartOf="@id/mistyView" />
+
+    <TextView
+        android:id="@+id/expenseReason"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:elevation="10dp"
+        android:ellipsize="end"
+        android:layout_marginTop="-5dp"
+        android:fontFamily="@font/helvetica_bold"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Entertainment"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/nameGuideline"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/mistyImage"
+        app:layout_constraintTop_toTopOf="@+id/mistyImage" />
+
+    <ImageView
+        android:id="@+id/dateContainer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pill_bg"
+        app:layout_constraintBottom_toBottomOf="@+id/mistyImage"
+        app:layout_constraintDimensionRatio="86:16"
+        app:layout_constraintStart_toStartOf="@+id/expenseReason"
+        app:layout_constraintTop_toBottomOf="@+id/expenseReason"
+        app:layout_constraintWidth_percent="0.2293" />
+
+    <TextView
+        android:id="@+id/expenseDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/helvetica"
+        android:text="Jul. 12, 2025"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/dateContainer"
+        app:layout_constraintStart_toStartOf="@+id/dateContainer"
+        app:layout_constraintTop_toBottomOf="@+id/expenseReason"
+        app:layout_constraintBottom_toBottomOf="@id/dateContainer" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/nameGuideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.55" /> <!-- 60% from the left -->
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/endGuideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" /> <!-- 60% from the left -->
+
+    <TextView
+        android:id="@+id/expenseAmount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textAlignment="textStart"
+        android:elevation="10dp"
+        app:layout_constraintHorizontal_bias="0"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:fontFamily="@font/helvetica_bold"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:maxLines="1"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="$650.00"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/dateContainer"
+        app:layout_constraintEnd_toStartOf="@+id/endGuideline"
+        app:layout_constraintStart_toEndOf="@id/nameGuideline"
+        app:layout_constraintTop_toTopOf="@id/expenseReason" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

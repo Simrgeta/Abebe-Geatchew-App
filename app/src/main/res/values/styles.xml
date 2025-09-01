@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyDialogAnimationStyle">
+        <item name="android:windowEnterAnimation">@anim/zoom_in</item>
+    </style>
+
+    <style name="MyAlertDialogTheme" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowAnimationStyle">@style/MyDialogAnimationStyle</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="CustomDialogTheme" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="colorPrimary">@color/blue_500</item>
+        <item name="colorPrimaryVariant">@color/blue_700</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:textColorSecondary">@android:color/darker_gray</item>
+    </style>
+
+    <style name="Bullet">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:textColor">#263142</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:drawablePadding">8dp</item>
+        <!-- Use a sparkle emoji as a playful bullet; swap with a vector if desired -->
+        <item name="android:drawableStart">@android:drawable/star_on</item>
+    </style>
+
+    <style name="Shape.Rounded2XL" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/dialog_fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="Widget.App.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="itemIconTint">@null</item>
+        <item name="itemTextColor">@color/bottom_nav_text_colors</item>
+    </style>
+
+    <style name="BottomNavLabel" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:paddingTop">2dp</item> <!-- adjust as needed -->
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <!-- Colored Material3 Button -->
+    <style name="Widget.Material3.Button.Colored" parent="Widget.MaterialComponents.Button">
+        <!-- Corner radius -->
+        <item name="cornerRadius">24dp</item>
+
+        <!-- Background color -->
+        <item name="backgroundTint">@color/colorPrimary</item>
+
+        <!-- Ripple effect -->
+        <item name="rippleColor">@color/colorOnPrimary</item>
+
+        <!-- Text color -->
+        <item name="android:textColor">@android:color/white</item>
+
+        <!-- Elevation -->
+        <item name="elevation">4dp</item>
+
+        <!-- Padding -->
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Theme.MyApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryContainer">@color/primaryContainer</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Widget.My.TextInputLayout.Filled" parent="Widget.Material3.TextInputLayout.FilledBox">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="boxBackgroundColor">@color/fieldBg</item>
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+        <item name="hintTextColor">@color/hintColor</item>
+        <item name="android:textColor">@color/onCardHigh</item>
+    </style>
+
+    <style name="Widget.My.PrimaryButton" parent="Widget.Material3.Button">
+        <item name="android:background">@drawable/bg_primary_button</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="cornerRadius">18dp</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+
+    <style name="LargeSmooth">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">22dp</item>
+    </style>
+
+
+        <!-- Base text for buttons -->
+        <style name="TextAppearance.My.Button" parent="TextAppearance.Material3.LabelLarge">
+            <item name="android:fontFamily">@font/poppins_semibold</item>
+            <item name="fontFamily">@font/poppins_semibold</item>
+            <item name="android:textAllCaps">false</item>
+            <item name="android:letterSpacing">0.02</item>
+        </style>
+
+        <!-- Shape for pill/rounded buttons -->
+        <style name="ShapeAppearance.My.Pill" parent="ShapeAppearance.Material3.Corner.Large">
+            <item name="cornerFamily">rounded</item>
+            <item name="cornerSize">18dp</item>
+        </style>
+
+        <!-- 🌟 THE STAR: IconButton (text + leading icon, glassy background, subtle shadow) -->
+        <style name="Widget.My.IconButton" parent="Widget.Material3.Button">
+            <!-- Layout & padding tuned for icon+text -->
+            <item name="android:insetLeft">0dp</item>
+            <item name="android:insetRight">0dp</item>
+            <item name="android:minHeight">48dp</item>
+            <item name="android:minWidth">0dp</item>
+            <item name="iconPadding">10dp</item>
+            <item name="iconGravity">textStart</item>
+            <item name="iconSize">22dp</item>
+
+            <!-- Typography -->
+            <item name="android:textAppearance">@style/TextAppearance.My.Button</item>
+
+            <!-- Colors (blend for light/dark) -->
+            <item name="backgroundTint">@color/btnGlassTint</item>
+            <item name="rippleColor">@color/btnRipple</item>
+            <item name="android:textColor">@color/btnText</item>
+            <item name="iconTint">@color/btnText</item>
+
+            <!-- Stroke + elevation for depth -->
+            <item name="strokeColor">@color/btnStroke</item>
+            <item name="strokeWidth">1dp</item>
+            <item name="elevation">2dp</item>
+            <item name="hoveredFocusedTranslationZ">2dp</item>
+            <item name="pressedTranslationZ">4dp</item>
+
+            <!-- Shape -->
+            <item name="shapeAppearance">@style/ShapeAppearance.My.Pill</item>
+
+
+            <!-- Touch target -->
+            <item name="android:paddingStart">16dp</item>
+            <item name="android:paddingEnd">18dp</item>
+            <item name="android:paddingTop">10dp</item>
+            <item name="android:paddingBottom">10dp</item>
+        </style>
+
+        <!-- Compact / Large sizes -->
+        <style name="Widget.My.IconButton.Small">
+            <item name="android:minHeight">40dp</item>
+            <item name="iconSize">18dp</item>
+            <item name="android:paddingStart">12dp</item>
+            <item name="android:paddingEnd">14dp</item>
+            <item name="android:paddingTop">8dp</item>
+            <item name="android:paddingBottom">8dp</item>
+            <item name="android:textAppearance">@style/TextAppearance.Material3.LabelMedium</item>
+        </style>
+
+        <style name="Widget.My.IconButton.Large">
+            <item name="android:minHeight">56dp</item>
+            <item name="iconSize">24dp</item>
+            <item name="android:paddingStart">18dp</item>
+            <item name="android:paddingEnd">20dp</item>
+            <item name="android:paddingTop">12dp</item>
+            <item name="android:paddingBottom">12dp</item>
+            <item name="android:textAppearance">@style/TextAppearance.Material3.TitleSmall</item>
+        </style>
+
+        <!-- Tonal variant (filled look) -->
+        <style name="Widget.My.IconButton.Tonal">
+            <item name="backgroundTint">@color/btnTonalBg</item>
+            <item name="strokeColor">@android:color/transparent</item>
+            <item name="android:textColor">@color/btnTonalText</item>
+            <item name="iconTint">@color/btnTonalText</item>
+        </style>
+
+        <!-- Outline variant -->
+        <style name="Widget.My.IconButton.Outline">
+            <item name="backgroundTint">@android:color/transparent</item>
+            <item name="strokeColor">@color/btnOutlineStroke</item>
+            <item name="strokeWidth">1.2dp</item>
+            <item name="android:textColor">@color/btnOutlineText</item>
+            <item name="iconTint">@color/btnOutlineText</item>
+            <item name="android:foreground">@drawable/ripple_btn_outline</item>
+        </style>
+
+        <!-- Emphasis colors -->
+        <style name="Widget.My.IconButton.Success">
+            <item name="backgroundTint">@color/btnSuccessBg</item>
+            <item name="android:textColor">@color/btnOnSuccess</item>
+            <item name="iconTint">@color/btnOnSuccess</item>
+            <item name="strokeColor">@color/btnSuccessStroke</item>
+        </style>
+
+        <style name="Widget.My.IconButton.Danger">
+            <item name="backgroundTint">@color/btnDangerBg</item>
+            <item name="android:textColor">@color/btnOnDanger</item>
+            <item name="iconTint">@color/btnOnDanger</item>
+            <item name="strokeColor">@color/btnDangerStroke</item>
+        </style>
+
+</resources>

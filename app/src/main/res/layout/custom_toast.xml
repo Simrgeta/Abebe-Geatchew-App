@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_background"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/toast_text"
+        android:textColor="#FF80A0"
+        android:textSize="12sp"
+        android:fontFamily="@font/helvetica_bold"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="Password must be 8–32 characters long\n must include: \n uppercase, lowercase, numbers \n special characters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

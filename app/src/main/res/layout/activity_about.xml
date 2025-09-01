@@ -1,0 +1,424 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_about_gradient">
+
+<androidx.core.widget.NestedScrollView
+    android:id="@+id/aboutScroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    android:paddingTop="80dp"
+    android:fadeScrollbars="false"
+    android:scrollbarStyle="outsideOverlay"
+    android:scrollbars="vertical"
+    android:paddingBottom="20dp"
+    android:fadingEdgeLength="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Hero Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp"
+            app:strokeColor="#33FFFFFF"
+            android:backgroundTint="@color/about_bg"
+            app:strokeWidth="1dp"
+            app:cardUseCompatPadding="true"
+            app:shapeAppearanceOverlay="@style/Shape.Rounded2XL">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#1A000000"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/appTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About This App"
+                    android:textColor="#FFFFFF"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    android:lineSpacingExtra="2dp"/>
+
+                <TextView
+                    android:id="@+id/appTitle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Abebe Getachew"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:layout_marginTop="8dp"
+                    android:textStyle="bold"
+                    android:lineSpacingExtra="2dp"/>
+
+                <TextView
+                    android:id="@+id/trailerLine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Imagine this: You lend a friend some cash… three weeks later they’re smiling, you’re broke — and your memory is screaming: ‘Wait, didn’t I—??’"
+                    android:textColor="#E6FFFFFF"
+                    android:textSize="15sp"
+                    android:lineSpacingExtra="2dp"/>
+
+                <TextView
+                    android:id="@+id/intro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Welcome to Abebe Getachew — the app that says NO MORE to lost money, forgotten debts, messy notebooks, and chaos."
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:lineSpacingExtra="2dp"/>
+
+                <TextView
+                    android:id="@+id/heroPunch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="This isn’t just an app. It’s your money’s personal bodyguard, your market’s secret diary, and your pocket-sized accountant with a sense of humor."
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:lineSpacingExtra="2dp"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Section: Superpowers -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/superpowersCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            app:cardCornerRadius="18dp"
+            android:backgroundTint="@color/about_bg"
+            app:cardElevation="6dp"
+            app:strokeColor="#26FFFFFF"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="18dp">
+
+                <TextView
+                    android:id="@+id/superpowersHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="✨ What it Does (aka Your Superpowers)"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:dividerPadding="8dp">
+
+                    <TextView
+                        android:id="@+id/superpowersBody1"
+                        style="@style/Bullet"
+                        android:textColor="@color/white"
+                        android:text="Track Debts &amp; Loans – Know who owes who, how much, and since when (never forget again)."/>
+
+                    <TextView
+                        android:id="@+id/superpowersBody2"
+                        style="@style/Bullet"
+                        android:textColor="@color/white"
+                        android:text="Income &amp; Expense Logging – Every birr, every cent, every snack, every taxi ride… recorded with one tap."/>
+
+                    <TextView
+                        android:id="@+id/superpowersBody3"
+                        style="@style/Bullet"
+                        android:textColor="@color/white"
+                        android:text="Market Notes – Write down what you bought, when, and how much — from onions to airplanes."/>
+
+                    <TextView
+                        android:id="@+id/superpowersBody4"
+                        style="@style/Bullet"
+                        android:textColor="@color/white"
+                        android:text="Net Income Calculation – Watch your balance rise or fall with the elegance of a magician’s trick."/>
+
+                    <TextView
+                        android:id="@+id/superpowersBody5"
+                        style="@style/Bullet"
+                        android:textColor="@color/white"
+                        android:text="Import &amp; Export – Your data, your control, anywhere you want."/>
+
+                    <TextView
+                        android:id="@+id/superpowersBody6"
+                        style="@style/Bullet"
+                        android:textColor="@color/white"
+                        android:text="Iron-Wall Security – Built so tight even a maestro hacker would cry and retire."/>
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Section: Audience -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/audienceCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="6dp"
+            android:backgroundTint="@color/about_bg"
+            app:strokeColor="#26FFFFFF"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="18dp">
+
+                <TextView
+                    android:id="@+id/audienceHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🎯 Who’s It For?"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/audienceBody"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Everyone. From shop owners juggling receipts, to students lending ‘small money,’ to business moguls running empires — if you’ve got cash flowing in or out, this app has your back."
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:lineSpacingExtra="2dp"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Section: Why It Exists -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/whyCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            app:cardCornerRadius="18dp"
+            android:backgroundTint="@color/about_bg"
+            app:cardElevation="6dp"
+            app:strokeColor="#26FFFFFF"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="18dp">
+
+                <TextView
+                    android:id="@+id/whyHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🚀 Why It Exists"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/whyBody1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="It started with a simple request: A father who needed an easier way to handle his time and money. That spark lit a fire — to end the tyranny of lost notes, forgotten payments, and premature paperwork."
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:lineSpacingExtra="2dp"/>
+
+                <TextView
+                    android:id="@+id/whyBody2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Now, with just a fingertip, your money memory travels everywhere you go. No worries. No excuses. Just clarity, control, and peace of mind."
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:lineSpacingExtra="2dp"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Section: The Experience -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/experienceCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            app:cardCornerRadius="18dp"
+            android:backgroundTint="@color/about_bg"
+            app:cardElevation="6dp"
+            app:strokeColor="#26FFFFFF"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="18dp">
+
+                <TextView
+                    android:id="@+id/experienceHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🎭 The Experience"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/experienceBody1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Funny enough to make you smile. Smart enough to make you wonder how you ever lived without it. Bold enough to make you feel like you’ve just discovered a superpower."
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:lineSpacingExtra="2dp"/>
+
+                <TextView
+                    android:id="@+id/experienceBody2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Abebe Getachew isn’t just an app. It’s your financial sidekick. Your wallet’s second brain. Your personal money spellbook."
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:lineSpacingExtra="2dp"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Final Word + CTA -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/finalWordCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="8dp"
+            android:backgroundTint="@color/about_bg"
+            app:strokeColor="#33FFFFFF"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="18dp">
+
+                <TextView
+                    android:id="@+id/finalWordHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="⚡ Final Word"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/finalWordBody"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Download it. Use it. Love it. And watch as your messy money life transforms into a story of control, confidence, and chaos-free living. Because in a world where money slips through cracks… Abebe Getachew seals them shut."
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:lineSpacingExtra="2dp"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnGetStarted"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp"
+                    android:text="Get Started"
+                    android:textAllCaps="false"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="16dp"
+                    app:iconPadding="8dp"
+                    app:iconGravity="textStart"
+                    app:rippleColor="#40FFFFFF"
+                    app:backgroundTint="#FFFFFF"
+                    app:icon="@drawable/ic_rocket_start"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chipImport"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Import/Export"
+                        app:chipBackgroundColor="#1FFFFFFF"
+                        app:chipStrokeColor="#26FFFFFF"
+                        app:chipStrokeWidth="1dp"/>
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chipSecure"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:text="Secure by Design"
+                        app:chipBackgroundColor="#1FFFFFFF"
+                        app:chipStrokeColor="#26FFFFFF"
+                        app:chipStrokeWidth="1dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Spacer bottom -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="24dp"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="26dp"
+        android:paddingBottom="16dp"
+        android:background="#89000000"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/circle_white"
+            android:src="@drawable/ic_round_arrow_back_24"
+            android:contentDescription="Back"
+            android:padding="12dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:tint="@color/white"
+            android:elevation="10dp"/>
+    </LinearLayout>
+</FrameLayout>

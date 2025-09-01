@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Outer shape: rounded corners with semi-transparent black -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#364F4F4F" /> <!-- black with 40% opacity -->
+            <corners android:radius="22dp" />
+        </shape>
+    </item>
+
+    <!-- Inner shadow: using inset gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#3A000000"
+                android:centerColor="#1B000000"
+                android:endColor="#3A000000"
+                android:angle="270" />
+            <corners android:radius="22dp" />
+            <padding
+                android:left="4dp"
+                android:top="4dp"
+                android:right="4dp"
+                android:bottom="4dp" />
+        </shape>
+    </item>
+
+</layer-list>

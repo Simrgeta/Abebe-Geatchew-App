@@ -1,0 +1,191 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAF5FC"
+    tools:context=".Import">
+
+    <!-- Top Guideline -->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.03" />
+
+    <!-- Back Button -->
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/circle_white"
+        android:src="@drawable/ic_round_arrow_back_24"
+        android:contentDescription="Back"
+        android:padding="12dp"
+        app:tint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guideline"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/import_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Import Backup"
+        android:textColor="#26CE92"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/helvetica_neue_medium"
+        app:layout_constraintTop_toTopOf="@id/backButton"
+        app:layout_constraintBottom_toBottomOf="@id/backButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"/>
+
+    <!-- Scrollable Content -->
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollContent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@id/backButton"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="16dp"
+            android:paddingTop="8dp">
+
+            <!-- Animated Import Card -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/importCard"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="32dp"
+                app:cardCornerRadius="28dp"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardElevation="16dp"
+                android:animateLayoutChanges="true"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="24dp">
+
+                    <!-- File Preview (Initially Hidden) -->
+                    <LinearLayout
+                        android:id="@+id/filePreviewLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="12dp"
+                        android:background="#F1F1F1"
+                        android:gravity="center_vertical"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginTop="8dp"
+                        android:clipToOutline="true"
+                        android:backgroundTint="#FFFFFF"
+                        android:elevation="4dp"
+                        android:visibility="gone">
+
+                        <!-- DB Icon -->
+                        <ImageView
+                            android:id="@+id/fileIcon"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:src="@drawable/ic_database"
+                            android:contentDescription="Database Icon"
+                            app:tint="#26CE92"/>
+
+                        <!-- File Info -->
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:paddingStart="12dp">
+
+                            <TextView
+                                android:id="@+id/fileName"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="backup_20250827.abms"
+                                android:textColor="#000000"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:id="@+id/fileSize"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Size: 1.2 MB"
+                                android:textColor="#555555"
+                                android:textSize="14sp"
+                                android:layout_marginTop="4dp"/>
+
+                            <TextView
+                                android:id="@+id/fileDate"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Modified: 27 Aug 2025"
+                                android:textColor="#555555"
+                                android:textSize="14sp"
+                                android:layout_marginTop="2dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!-- Open File Button -->
+                    <com.sanojpunchihewa.glowbutton.GlowButton
+                        android:id="@+id/btnOpenFile"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:paddingVertical="16dp"
+                        android:text="Open File"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:buttonColor="#26CE92"
+                        app:cornerRadius="50dp"
+                        app:glowColor="#AA26CE92"
+                        app:pressedGlowSize="16dp"
+                        app:unpressedGlowSize="10dp"
+                        android:stateListAnimator="@animator/btn_elevation_anim"/>
+
+                    <!-- Import Button -->
+                    <com.sanojpunchihewa.glowbutton.GlowButton
+                        android:id="@+id/btnImport"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:paddingVertical="16dp"
+                        android:text="Import"
+                        android:visibility="gone"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:buttonColor="#26CE92"
+                        app:cornerRadius="50dp"
+                        app:glowColor="#AA26CE92"
+                        app:pressedGlowSize="16dp"
+                        app:unpressedGlowSize="10dp"
+                        android:stateListAnimator="@animator/btn_elevation_anim"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

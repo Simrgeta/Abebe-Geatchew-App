@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="16dp"
+    android:padding="12dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category: "
+        android:lineSpacingExtra="2dp"
+        android:lineSpacingMultiplier="1.3"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#6B6B6B" />
+
+    <TextView
+        android:id="@+id/tvExpenseCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Movie"
+        android:lineSpacingExtra="2dp"
+        android:lineSpacingMultiplier="1.3"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Reason: "
+        android:textStyle="bold"
+        android:lineSpacingExtra="2dp"
+        android:lineSpacingMultiplier="1.3"
+        android:textSize="16sp"
+        android:textColor="#6B6B6B" />
+
+    <TextView
+        android:id="@+id/tvExpenseReason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="None"
+        android:lineSpacingExtra="2dp"
+        android:lineSpacingMultiplier="1.3"
+        android:textSize="14sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount: "
+        android:textStyle="bold"
+        android:lineSpacingExtra="2dp"
+        android:lineSpacingMultiplier="1.3"
+        android:textSize="16sp"
+        android:textColor="#6B6B6B"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/tvExpenseAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="300.00 ETB"
+        android:lineSpacingExtra="2dp"
+        android:lineSpacingMultiplier="1.3"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

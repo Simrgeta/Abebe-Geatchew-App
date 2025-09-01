@@ -1,0 +1,337 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_about_gradient">
+
+    <!-- Scrollable Developer Content -->
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/developerScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:paddingTop="96dp"
+        android:paddingBottom="20dp"
+        android:fadeScrollbars="false"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical"
+        android:fadingEdgeLength="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <!-- Hero Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="8dp"
+                android:backgroundTint="@color/about_bg"
+                app:strokeColor="#33FFFFFF"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp"
+                    android:background="#1A000000">
+
+                    <TextView
+                        android:id="@+id/devName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Simrgeta Awash"
+                        android:textColor="#FFFFFF"
+                        android:textSize="26sp"
+                        android:textStyle="bold"
+                        android:lineSpacingExtra="2dp"/>
+
+                    <TextView
+                        android:id="@+id/devName2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your Next Tech Genius"
+                        android:textColor="#FFFFFF"
+                        android:textSize="17sp"
+                        android:layout_marginTop="5dp"
+                        android:textStyle="bold"
+                        android:lineSpacingExtra="2dp"/>
+
+                    <TextView
+                        android:id="@+id/devTagline"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Turning Ideas into Reality. From Code to Creation. Your Vision, My Mission."
+                        android:textColor="#E6FFFFFF"
+                        android:textSize="15sp"
+                        android:lineSpacingExtra="2dp"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Developer Story / Body -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="18dp"
+                android:backgroundTint="@color/about_bg"
+                app:cardElevation="6dp"
+                app:strokeColor="#26FFFFFF"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="18dp">
+
+                    <TextView
+                        android:id="@+id/devStoryHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="🚀 About Me"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/devStoryBody"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="I don’t just code — I craft experiences. Every line of C#, Java, ASP.NET, or Python I write is a step toward making your vision unforgettable. Whether it’s sleek web apps with Django, fully immersive Android apps, or breathtaking games in Unity, I merge creativity with precision to deliver solutions that wow, perform, and endure.\n\nStartups, small businesses, individuals, corporations — I specialize in transforming concepts into polished products that don’t just function, but captivate. From brainstorming to deployment, your project will feel alive, intuitive, and extraordinary.\n\nI thrive on challenges. Complex requirements? Tight deadlines? Unique visions? Bring it on. I combine technical mastery with artistic innovation, ensuring your project isn’t just built — it stands out. Every detail matters, every interaction delights, and every solution impresses.\n\nHire me, and together we’ll create software that doesn’t just work — it leaves a mark."
+                        android:textColor="#E6FFFFFF"
+                        android:textSize="15sp"
+                        android:lineSpacingExtra="2dp"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- CTA Section -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="18dp"
+                android:backgroundTint="@color/about_bg"
+                app:cardElevation="6dp"
+                app:strokeColor="#26FFFFFF"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="18dp">
+
+                    <TextView
+                        android:id="@+id/devCTABody"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Your ideas deserve brilliance. Let’s build it — beautifully, boldly, and flawlessly."
+                        android:textColor="#FFDD00"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:lineSpacingExtra="2dp"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Skills Section -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                app:cardCornerRadius="18dp"
+                android:backgroundTint="@color/about_bg"
+                app:cardElevation="6dp"
+                app:strokeColor="#26FFFFFF"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="18dp">
+
+                    <TextView
+                        android:id="@+id/skillsHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="💻 Skills &amp; Expertise"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+                    <com.google.android.material.chip.ChipGroup
+                        android:id="@+id/chipSkills"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        app:chipSpacing="8dp"
+                        android:singleLine="false"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.chip.Chip
+                            android:id="@+id/chipAndroid"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Android Java"
+                            android:textColor="@color/black"
+                            app:chipBackgroundColor="#FFFFFF"
+                            app:chipStrokeColor="#26FFFFFF"
+                            app:chipStrokeWidth="1dp"/>
+
+                        <com.google.android.material.chip.Chip
+                            android:id="@+id/chipAspNet"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ASP.NET / C#"
+                            android:textColor="@color/black"
+                            app:chipBackgroundColor="#FFFFFF"
+                            app:chipStrokeColor="#26FFFFFF"
+                            app:chipStrokeWidth="1dp"/>
+
+                        <com.google.android.material.chip.Chip
+                            android:id="@+id/chipDjango"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Django / Web Apps"
+                            android:textColor="@color/black"
+                            app:chipBackgroundColor="#FFFFFF"
+                            app:chipStrokeColor="#26FFFFFF"
+                            app:chipStrokeWidth="1dp"/>
+
+                        <com.google.android.material.chip.Chip
+                            android:id="@+id/chipUnity"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Unity / Games"
+                            android:textColor="@color/black"
+                            app:chipBackgroundColor="#FFFFFF"
+                            app:chipStrokeColor="#26FFFFFF"
+                            app:chipStrokeWidth="1dp"/>
+                    </com.google.android.material.chip.ChipGroup>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Contact Section -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                app:cardCornerRadius="18dp"
+                android:backgroundTint="@color/about_bg"
+                app:cardElevation="6dp"
+                app:strokeColor="#26FFFFFF"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="18dp">
+
+                    <TextView
+                        android:id="@+id/contactHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="📬 Contact &amp; Socials"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+                    <LinearLayout
+                        android:id="@+id/socialIcons"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="24dp"
+                        android:gravity="start"
+                        android:weightSum="3">
+
+                        <ImageButton
+                            android:id="@+id/btnEmail"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_marginEnd="12dp"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/ic_email"
+                            android:scaleType="centerCrop"/>
+
+                        <ImageButton
+                            android:id="@+id/btnLinkedIn"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_marginEnd="12dp"
+                            android:scaleType="centerCrop"
+                            android:background="@drawable/circle_white"
+                            android:src="@drawable/ic_linkedin"/>
+
+                        <ImageButton
+                            android:id="@+id/btnGitHub"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:scaleType="centerCrop"
+                            android:padding="2dp"
+                            android:background="@drawable/circle_white"
+                            android:src="@drawable/ic_github"
+                            app:tint="@color/white"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- CTA Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnPortfolio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:text="View Portfolio"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:cornerRadius="16dp"
+                app:rippleColor="#40FFFFFF"
+                app:backgroundTint="#FFFFFF"
+                app:icon="@drawable/ic_rocket_start"
+                app:iconGravity="textStart"
+                app:iconPadding="8dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="24dp"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- Fixed Back Button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="26dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingBottom="16dp"
+        android:background="#89000000">
+        <ImageButton
+            android:id="@+id/backButtonDev"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/circle_white"
+            android:src="@drawable/ic_round_arrow_back_24"
+            android:contentDescription="Back"
+            android:padding="12dp"
+            app:tint="@color/white"
+            android:elevation="10dp"/>
+    </LinearLayout>
+
+</FrameLayout>

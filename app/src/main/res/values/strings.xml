@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Abebe Getachew</string>
+    <string name="api_url">https://eo55egm2avogyuz.m.pipedream.net</string>
+    <string name="api_key">my-secret-api-key</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="expense_categories">
+        <item>Housing (Rent, Mortgage, Property Tax, Maintenance)</item>
+        <item>Utilities (Electricity, Water, Gas, Internet, Phone)</item>
+        <item>Transportation (Fuel, Car Payment, Insurance, Public Transit, Maintenance)</item>
+        <item>Food &amp; Groceries</item>
+        <item>Healthcare (Medical Bills, Insurance, Medicines)</item>
+        <item>Debt Payments (Loans, Credit Cards, EMIs)</item>
+
+        <item>Dining Out &amp; Coffee</item>
+        <item>Entertainment (Movies, Streaming, Concerts, Gaming)</item>
+        <item>Shopping (Clothes, Electronics, Accessories)</item>
+        <item>Subscriptions (Spotify, Netflix, Gym, Magazines)</item>
+        <item>Travel &amp; Vacations</item>
+        <item>Education &amp; Learning (Courses, Books, Tuition)</item>
+
+        <item>Emergency Fund</item>
+        <item>Retirement Savings</item>
+        <item>Stocks / Mutual Funds / Crypto</item>
+        <item>Insurance Premiums (Life, Health, Car, Property)</item>
+
+        <item>Childcare / School Fees</item>
+        <item>Gifts &amp; Donations</item>
+        <item>Pets (Food, Vet, Supplies)</item>
+        <item>Personal Care (Salon, Spa, Grooming)</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="debt_added_message">Debt added for %1$s on %2$s with ID %3$s!</string>
+    <string name="entry_recorded_successfully">Entry recorded successfully!</string>
+    <string name="notes_saved_successfully">Notes saved successfully!</string>
+    <string name="password_changed">Password Changed!</string>
+    <string name="your_password_has_been_updated_successfully">Your password has been updated successfully.</string>
+
+
+</resources>

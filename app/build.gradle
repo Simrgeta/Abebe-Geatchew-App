@@ -1,0 +1,86 @@
+plugins {
+    alias(libs.plugins.android.application)
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'com.abebegetachew.abebe.salarymanagement.abebegetachew'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "com.abebegetachew.abebe.salarymanagement.abebegetachew"
+        minSdk 26
+        targetSdk 36
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    packagingOptions {
+        resources {
+            pickFirsts += [
+                    "META-INF/NOTICE.md",
+                    "META-INF/LICENSE.md",
+                    "META-INF/DEPENDENCIES",
+                    "META-INF/LICENSE",
+                    "META-INF/INDEX.LIST"   // Added this line to fix your build
+            ]
+        }
+    }
+
+}
+
+dependencies {
+
+    implementation platform(libs.firebase.bom)
+    implementation libs.firebase.firestore
+    implementation libs.firebase.auth
+    implementation libs.appcompat
+    implementation libs.material
+    implementation libs.activity
+    implementation(libs.circleimageview)
+    implementation libs.constraintlayout
+    implementation libs.firebase.database
+    implementation libs.firebase.storage
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+    implementation libs.ucrop
+    implementation libs.okhttp
+    implementation libs.logging.interceptor
+    implementation libs.lottie
+    implementation libs.firebase.functions
+    implementation libs.android.mail
+    implementation libs.android.activation
+    implementation libs.glowbutton
+    implementation libs.play.services.auth
+    implementation libs.google.http.client.android
+    implementation libs.google.api.services.drive.vv3rev20230828200
+    implementation libs.glide
+    implementation libs.dropbox.core.sdk
+    implementation libs.google.api.client.gson.v1342
+    annotationProcessor libs.compiler
+    implementation libs.lifecycle.livedata.ktx
+    implementation libs.lifecycle.viewmodel.ktx
+    implementation libs.play.services.auth.v2070
+    implementation libs.google.api.client.android.v1342
+    implementation libs.google.api.client.gson.v1342
+    implementation libs.google.api.services.drive.vv3rev20230828200
+    implementation libs.microsoft.graph // Use the latest version
+    implementation libs.msal // Use the latest version
+
+}
+
+
+apply plugin: 'com.google.gms.google-services'

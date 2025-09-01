@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Your normal background -->
+    <item android:drawable="@drawable/btn_bg2" />
+
+    <!-- Greyish overlay -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#E78A8A8A" />
+            <corners android:radius="25dp"/>
+            <!-- Semi-transparent grey -->
+        </shape>
+    </item>
+</layer-list>

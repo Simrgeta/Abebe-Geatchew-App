@@ -1,0 +1,7 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Disabled state -->
+    <item android:state_enabled="false" android:drawable="@drawable/btn_bg_disabled" />
+
+    <!-- Enabled state -->
+    <item android:drawable="@drawable/btn_bg_enabled" />
+</selector>

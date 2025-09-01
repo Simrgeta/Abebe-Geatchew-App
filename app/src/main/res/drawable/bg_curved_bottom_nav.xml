@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1080dp"
+    android:height="90dp"
+    android:viewportWidth="1080"
+    android:viewportHeight="90">
+
+    <!-- Background with center curve -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+            M0,0
+            L0,90
+            L1080,90
+            L1080,0
+            L720,0
+            C660,0 620,40 540,40
+            C460,40 420,0 360,0
+            L0,0 Z" />
+</vector>

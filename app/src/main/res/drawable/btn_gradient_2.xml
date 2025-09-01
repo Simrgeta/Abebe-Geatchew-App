@@ -1,0 +1,5 @@
+<!-- btn_gradient_2.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient android:startColor="#FFD93D" android:endColor="#6BCB77" android:angle="45"/>
+    <corners android:radius="24dp"/>
+</shape>

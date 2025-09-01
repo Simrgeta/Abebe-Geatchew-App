@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lottie="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!-- Background ImageView -->
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pending_bg"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        lottie:lottie_autoPlay="true"
+        lottie:lottie_loop="true"
+        lottie:lottie_rawRes="@raw/arrow_anim" />
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Pending"
+        android:textColor="#35430E"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@id/animationView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:id="@+id/textMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pay or if you paid, your request is being processed. If it took too long, contact the author."
+        android:textColor="#35430E"
+        android:textSize="16sp"
+        android:layout_below="@id/textTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:paddingHorizontal="16dp"
+        android:gravity="center"
+        android:maxWidth="300dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonContact"
+        android:layout_width="168dp"
+        android:layout_height="48dp"
+        android:text="Contact Author"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="11sp"
+        android:fontFamily="@font/helvetica_bold"
+        android:background="@drawable/pending_btn_bg"
+        android:layout_below="@id/textMessage"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:layout_marginTop="48dp"
+        android:elevation="4dp"
+        android:onClick="showAlert"
+        android:stateListAnimator="@null" />
+
+</RelativeLayout>
