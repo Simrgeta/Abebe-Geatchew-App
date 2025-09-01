@@ -77,11 +77,16 @@ This project was developed with a focus on clean architecture, beautiful UI, and
 * **Lottie**: For high-quality animations.
 * **CircleImageView** and **Glowbutton**: For custom UI components.
 * **Android Mail** and **Android Activation**: For email sending capabilities.
-# Installation
+
+  
+## Installation
 
 To get a local copy up and running, follow these steps.
 
-### Clone the repository:
+# 1. Clone the repository:
 
 ```bash
-git clone https://github.com/[YourGitHubUsername]/[YourProjectName].git
+git clone https://github.com/Simrgeta/Abebe-Geatchew-App.git
+```
+
+# 2. Open in Android Studio:
