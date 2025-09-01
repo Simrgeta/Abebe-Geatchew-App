@@ -96,3 +96,19 @@ git clone https://github.com/Simrgeta/Abebe-Geatchew-App.git
 ### 3. Run the app:
 * **Connect a physical device or set up an emulator.**
 * **Click the** `Run` **button in Android Studio.**
+
+## Usage
+
+You can use the app for day to day marketing activities, while shoopping, for contolling your cash flow, etc...
+Here is a step by step guide to start using the app:
+
+1. Launch the app.
+2. Wait for a few ssconds and you will see a login page. If you already have an account, just log in. If you dont have an account, tap `Don't have an account? Sign up` then enter your information and verify your account.
+3. That's it! You can now enjoy all our services anytime, anywhere.
+
+**Note: You must always turn on** `Mobile Data` **or** `Wi-Fi` **when the app is launching or while you export data to cloud servers. After the app finished loading, you can turn off your mobile data or wi-fi**
+
+## Licence
+
+This project is licensed under a custom license.  
+See the [LICENSE](LICENSE) file for more details.
