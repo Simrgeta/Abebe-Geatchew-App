@@ -108,7 +108,7 @@ Here is a step by step guide to start using the app:
 
 **Note: You must always turn on** `Mobile Data` **or** `Wi-Fi` **when the app is launching or while you export data to cloud servers. After the app finished loading, you can turn off your mobile data or wi-fi**
 
-## Licence
+## License
 
 This project is licensed under a custom license.  
 See the [LICENSE](LICENSE) file for more details.
