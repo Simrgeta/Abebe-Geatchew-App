@@ -41,16 +41,12 @@ This project was developed with a focus on clean architecture, beautiful UI, and
 
 ## Screenshots
 
-| Name | Screenshot |
-|---|---|
-| Splash | <img src="screenshots/Splash.jpg" height="300" /> |
-| Login | <img src="screenshots/Login.jpg" height="300" /> |
-| Register | <img src="screenshots/Register.jpg" height="300" /> |
-| Home | <img src="screenshots/Home.jpg" height="300" /> |
-| Debts | <img src="screenshots/Debts.jpg" height="300" /> |
-| Expenses | <img src="screenshots/Expenses.jpg" height="300" /> |
-| Notes | <img src="screenshots/Notes.jpg" height="300" /> |
-| Settings | <img src="screenshots/settings.jpg" height="300" /> |
+| Name | Screenshot | Name | Screenshot |
+|---|---|---|---|
+| Splash | <img src="screenshots/Splash.jpg" height="300" /> | Login | <img src="screenshots/Login.jpg" height="300" /> |
+| Register | <img src="screenshots/Register.jpg" height="300" /> | Home | <img src="screenshots/Home.jpg" height="300" /> |
+| Debts | <img src="screenshots/Debts.jpg" height="300" /> | Expenses | <img src="screenshots/Expenses.jpg" height="300" /> |
+| Notes | <img src="screenshots/Notes.jpg" height="300" /> | Settings | <img src="screenshots/settings.jpg" height="300" /> |
 
 ## Tech Stack
 
