@@ -1,9 +1,9 @@
 # Abebe Getachew
 
 
-**Table of Contents**
+## Table of Contents
 
-[Introduction] (#introduction)
+-  [Introduction](#introduction)
 
 -  Features
 
