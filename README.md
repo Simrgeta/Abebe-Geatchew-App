@@ -52,50 +52,6 @@ This project was developed with a focus on clean architecture, beautiful UI, and
 | Notes | <img src="screenshots/Notes.jpg" height="300" /> |
 | Settings | <img src="screenshots/settings.jpg" height="300" /> |
 
-Of course. A great README.md file is crucial for a GitHub project. It's the first thing people see and it acts as a user manual, a showcase, and a guide all in one. Here is a template you can use for your Android app's README.md file.
-
-You should copy the content below and replace the placeholder text (e.g., [Your App Name], [Short, Catchy Description], etc.) with your app's specific details.
-
-[Your App Name]
-Table of Contents
-Introduction
-
-Features
-
-Screenshots
-
-Tech Stack
-
-Installation
-
-Usage
-
-Contributing
-
-License
-
-Contact
-
-Introduction
-[Your App Name] is a [Short, catchy description of your app]. It's designed to solve [The problem your app solves] and makes it easy for users to [Core benefit or action they can take].
-
-This project was developed with a focus on [Key principles like "clean architecture," "beautiful UI," "high performance," etc.].
-
-Features
-Feature 1: [A brief explanation of a key feature].
-
-Feature 2: [Another key feature].
-
-Feature 3: [And a third one].
-
-Screenshots
-[Screen 1 Name]	[Screen 2 Name]	[Screen 3 Name]
-![Screen 1]	![Screen 2]	![Screen 3]
-[Optional: Short description]	[Optional: Short description]	[Optional: Short description]
-
-Export to Sheets
-Note: You can add these images by uploading them to your GitHub repository and using the image links in the table. A common practice is to create a screenshots folder.
-
 ## Tech Stack
 
 **This project uses the following technologies and libraries**:
