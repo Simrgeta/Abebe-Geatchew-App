@@ -83,10 +83,11 @@ This project was developed with a focus on clean architecture, beautiful UI, and
 
 To get a local copy up and running, follow these steps.
 
-# 1. Clone the repository:
+### 1. Clone the repository:
 
 ```bash
 git clone https://github.com/Simrgeta/Abebe-Geatchew-App.git
 ```
 
-# 2. Open in Android Studio:
+### 2. Open in Android Studio:
+* **Open Android Studio and select** `File > Open`
