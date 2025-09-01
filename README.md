@@ -91,3 +91,8 @@ git clone https://github.com/Simrgeta/Abebe-Geatchew-App.git
 
 ### 2. Open in Android Studio:
 * **Open Android Studio and select** `File > Open`
+* **Navigate to the cloned repository and open it.**
+
+### 3. Run the app:
+* **Connect a physical device or set up an emulator.**
+* **Click the** `Run` **button in Android Studio.**
