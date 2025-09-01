@@ -113,6 +113,15 @@ Here is a step by step guide to start using the app:
 This project is licensed under a custom license.  
 See the [LICENSE](LICENSE) file for more details.
 
+# ⚠️ NOTICE: PROPRIETARY SOFTWARE
+
+This software is proprietary and licensed under the terms of the **End-User License Agreement (EULA)** below.  
+- ❌ Forking this repository is **not permitted**.  
+- ❌ Redistribution, resale, or commercial use without permission is **strictly prohibited**.  
+- ✅ You may only use this software under the license terms granted by the Licensor.  
+
+---
+
 # END-USER LICENSE AGREEMENT
 
 **Effective Date:** September 1, 2025  
